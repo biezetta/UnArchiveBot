@@ -1,6 +1,8 @@
-pyrogram
+pyrogram==1.4.16
 tgcrypto
 hachoir
 Pillow
 natsort
 psutil
+flask
+flask_restful
