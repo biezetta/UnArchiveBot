@@ -19,4 +19,5 @@ COPY pextract /usr/local/bin
 RUN chmod +x /usr/local/bin/nextract && chmod +x /usr/local/bin/pextract
 COPY . .
 
-CMD python3 -m unarchiver
+# CMD python3 -m unarchiver
+CMD bash start.sh
